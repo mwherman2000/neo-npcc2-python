@@ -15,9 +15,9 @@ namespace NPC.mwherman2000.NEP5Token.Model
                                    NPCLevel1Managed,
                                    NPCLevel2Persistable
     {
-        BigInteger Timestamp;
-        string Decription;
-        BigInteger DebitCreditAmount; 
-        BigInteger Balance;
+        BigInteger  Timestamp;
+        string      Decription;
+        BigInteger  DebitCreditAmount; 
+        BigInteger  Balance;
     }
 }
