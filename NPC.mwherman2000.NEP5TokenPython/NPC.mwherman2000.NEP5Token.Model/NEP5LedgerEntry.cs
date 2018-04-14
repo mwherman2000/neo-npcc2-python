@@ -17,7 +17,7 @@ namespace NPC.mwherman2000.NEP5Token.Model
     {
         BigInteger Timestamp;
         string Decription;
-        BigInteger DebitCreditAmount;
+        BigInteger DebitCreditAmount; 
         BigInteger Balance;
     }
 }
