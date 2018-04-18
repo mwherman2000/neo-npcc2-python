@@ -21,6 +21,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="NeoEntityModel.py" />
+    <Compile Include="NeoTrace.py" />
+    <Compile Include="NEP5LedgerEntryL0Basic.py" />
+    <Compile Include="NEP5LedgerEntryL1Managed.py" />
+    <Compile Include="NEP5LedgerEntryL2Persistable.py" />
     <Compile Include="NPC.mwherman2000.NEP5Token.ManualPContract.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
