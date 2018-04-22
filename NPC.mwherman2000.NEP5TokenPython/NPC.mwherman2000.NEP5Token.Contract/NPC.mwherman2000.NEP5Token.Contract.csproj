@@ -48,10 +48,15 @@
   <ItemGroup>
     <Compile Include="Contract1.cs" />
     <Compile Include="NeoEntityModel.cs" />
+    <Compile Include="NeoStorageKey.cs" />
     <Compile Include="NeoTrace.cs" />
+    <Compile Include="NeoVersionedAppUser.cs" />
     <Compile Include="NEP5LedgerEntryL0Basic.cs" />
     <Compile Include="NEP5LedgerEntryL1Managed.cs" />
     <Compile Include="NEP5LedgerEntryL2Persistable.cs" />
+    <Compile Include="NEP5LedgerEntryL3Deletable.cs" />
+    <Compile Include="NEP5LedgerEntryL4CollectibleExt0.cs" />
+    <Compile Include="NEP5LedgerEntryL4CollectibleExt2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

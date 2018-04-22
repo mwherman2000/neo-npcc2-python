@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 /// <summary>
 /// NPC.mwherman2000.NEP5Token.Contract.NEP5LedgerEntry - Level 2 Persistable
 ///
-/// Processed:       2018-04-13 9:18:33 PM by npcc - NEO Persistable Classes (NPC) Platform 2.1 Compiler v2.1.0.24661
+/// Processed:       2018-04-21 10:49:17 PM by npcc - NEO Persistable Classes (NPC) Platform 2.1 Compiler v2.1.0.38328
 /// NPC Project:     https://github.com/mwherman2000/neo-npcc2/blob/master/README.md
 /// NPC Lead:        Michael Herman (Toronto) (mwherman@parallelspace.net)
 /// </summary>
