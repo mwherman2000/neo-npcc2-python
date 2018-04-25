@@ -45,8 +45,9 @@ class NEP5LedgerEntry(NeoTraceRuntime):
         e.__debitCreditAmount = 0
         e.__balance = 0
         e.__state = NeoEntityModel.NULL
-        if NeoTrace.RUNTIME:
-            pass
+        if (NeoTrace.RUNTIME):
+            LogExt("Null().NEP5LedgerEntry", e)
+        return e
 
     def __init__(Timestamp=0, Decription="", DebitCreditAmount=0, Balance=0):
         e = NEP5LedgerEntry()
